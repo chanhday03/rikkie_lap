@@ -1,0 +1,52 @@
+I – PHẦN :1 HTML
+1.Xác định kết quả hiển thị trên trang web của dòng chữ "Rikkei Academy"
+trong đoạn mã sau:
+-B. In Nghiêng
+2.Trang HTML sau sẽ hiển thị gì trên trình duyệt?
+-B. 1945 – 2017
+3.Đâu là những thẻ được sử dụng để tạo bảng trong trang web?
+-A. <table>
+-B. <tr>
+D. <td>
+4. Giải thích đoạn mã HTML sau?
+-A. Tạo bảng có 2 dòng 2 cột
+5. Để gộp các ô ở các cột khác nhau trong một table, thuộc tính nào được sử
+dụng?
+A. colspan
+6. Thêm một "tooltip" vào đoạn bên dưới với nội dung "Giới thiệu về Rikkei
+Academy".
+C. title
+7. Biến phần tử bên dưới thành một liên kết dẫn đến "https://rikkei.edu.vn/".
+-B. href=
+8. Sử dụng các thuộc tính hình ảnh HTML để đặt kích thước của hình ảnh thành
+chiều rộng 250 pixel và chiều cao 400 pixel.
+C. width, height
+9. Thêm thuộc tính HTML chính xác để hiển thị hình ảnh "smiley.gif"
+A. src="smiley.gif"
+10. Thêm chú thích bảng có nội dung "Tên".
+A. <caption>Names</caption>
+
+II- PHẦN 2: CSS 
+1. CSS là viết tắt của?
+A.Cascading Style Sheets
+2. Có những cách nào để đưa CSS vào một trang web?
+A. Sử dụng thẻ <style> hoặc thuộc tính style
+C. Nhúng tệp CSS bằng thẻ <link>
+3. Đâu là cú pháp để chú thích trong CSS?
+B. /* this is a comment */
+4. Cho biết kết quả màu của “Rikkei Academy” trong đoạn mã sau?
+B. Màu xanh dương (blue)
+5. Cho biết kết quả màu của “Rikkei Academy” trong đoạn mã sau?
+B. Màu xanh dương (blue)
+6. Đặt màu của tất cả các phần tử <p> thành màu đỏ
+B. p, color
+7. Sử dụng thuộc tính đường viền chính xác để đặt màu đường viền thành "đỏ".
+D. border-color
+8. Sử dụng thuộc tính đường viền chính xác để thêm đường viền tròn cho các phần tử
+<p>.
+D. border-width
+9. Thêm khoảng cách 25 pixel giữa đường viền của phần tử <div> và nội dung của phần
+tử đó.
+A. padding
+10. Ẩn phần tử <h1>
+D. div p
