@@ -6,23 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giao diện 1: Login Form</title>
 <link rel="stylesheet" href="./style.css">
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #af44ae, #e1429e) no-repeat;
+  opacity: 0.8;
+  font-family: "Nunito", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+.loginform {
+  width: 350px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+}
+.content {
+  margin: 20px 0;
+  padding: 30px;
+}
+a{
+    text-decoration: none;
+}
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.tittle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+.login,
+.signup {
+  padding: 10px 50px;
+}
+.login {
+  border-radius: 5px;
+  background-color: #d753bd;
+}
+.signup {
+    background-color: white;
+}
+input {
+  border-radius: 3px;
+  outline: none;
+  border: 1.5px solid #ccc;
+  padding: 10px 15px;
+  width: 100%;
+  margin-top: 20px;
+}
+.fpass {
+display: block;
+text-align: left;
+margin-top: 5px;
+color: #d753bd;
+}
+button{
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    border: 1.5px solid #ccc;
+    padding: 10px 15px;
+    color: white;
+    background-color: #d753bd;
+    margin-bottom: 20px;
+}
+button:hover{
+  background-color: aquamarine;
+  color: black;
+}
+.question{
+    display: block;
+    text-align: center;
+    color: black;
+}
+.question a:last-child{
+    color: #d753bd;
+}
+.question:hover{
+    color: orange;
+}
+</style>
 </head>
 <body>
-    <div class="login">
+    <div class="loginform">
         <div class="content">
             <h1 class="intro">Login Form</h1>
-            <div class="tittle">
-                <a><p class=t_login" >Login</p></a>
-                <a><p class="t_signup" >Signup</p></a>
-            </div>
-            <input type="text" placeholder="Email Address"><br>
-            <input type="password" placeholder="Password"><br>
-            <a><span>Forgot password</span></a><br>
+                <div class="tittle" >
+                    <p class="login">Login</p>
+                    <p class="signup" >Signup</p>
+                </div>
+            <input type="text" placeholder="Email Address">
+            <input type="password" placeholder="Password">
+            <a><span class="fpass">Forgot password ?</span></a><br>
             <button>Login</button><br>
-            <a href="">
-                <span>Not a member?</span>
-                <span>Signup now</span>
-            </a>
+            <div class="question">
+                <a>Not a member ?</a>
+                <a>Signup now</a>
+            </div>
         </div>
     </div>
 </body>
